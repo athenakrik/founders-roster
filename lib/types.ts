@@ -15,8 +15,7 @@ export type Stage =
   | "Series A"
   | "Series B"
   | "Series C"
-  | "Series D+"
-  | "IPO";
+  | "Series D+";
 
 export type FounderStatus = "pending" | "approved" | "rejected";
 
@@ -62,5 +61,4 @@ export const STAGES: Stage[] = [
   "Series B",
   "Series C",
   "Series D+",
-  "IPO",
 ];

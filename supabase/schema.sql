@@ -25,7 +25,7 @@ create table if not exists founders (
   )),
   stage             text check (stage in (
     'Pre-Seed', 'Seed', 'Series A', 'Series B',
-    'Series C', 'Series D+', 'IPO'
+    'Series C', 'Series D+'
   )),
   amount_raised     bigint,
 
