@@ -20,8 +20,9 @@ create table if not exists founders (
   company_name      text,
   company_website   text,
   sector            text check (sector in (
-    'AI Labs', 'Infrastructure', 'Data', 'Healthtech',
-    'Robotics', 'Fintech', 'Consumer', 'Climate', 'Other'
+    'Research Lab', 'Infrastructure', 'Data', 'Dev Tools', 'Healthtech',
+    'Biotech', 'Fintech', 'Consumer', 'Climate', 'Defense',
+    'Proptech', 'Security', 'Space', 'Other'
   )),
   stage             text check (stage in (
     'Pre-Seed', 'Seed', 'Series A', 'Series B',

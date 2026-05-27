@@ -1,12 +1,17 @@
 export type Sector =
-  | "AI Labs"
+  | "Research Lab"
   | "Infrastructure"
   | "Data"
+  | "Dev Tools"
   | "Healthtech"
-  | "Robotics"
+  | "Biotech"
   | "Fintech"
   | "Consumer"
   | "Climate"
+  | "Defense"
+  | "Proptech"
+  | "Security"
+  | "Space"
   | "Other";
 
 export type Stage =
@@ -43,14 +48,19 @@ export interface Founder {
 }
 
 export const SECTORS: Sector[] = [
-  "AI Labs",
+  "Research Lab",
   "Infrastructure",
   "Data",
+  "Dev Tools",
   "Healthtech",
-  "Robotics",
+  "Biotech",
   "Fintech",
   "Consumer",
   "Climate",
+  "Defense",
+  "Proptech",
+  "Security",
+  "Space",
   "Other",
 ];
 
